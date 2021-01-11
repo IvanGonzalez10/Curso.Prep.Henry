@@ -56,6 +56,8 @@ function multiplica(x, y) {
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
+  var division = x / y;
+  return division;
 }
 
 function sonIguales(x, y) {
