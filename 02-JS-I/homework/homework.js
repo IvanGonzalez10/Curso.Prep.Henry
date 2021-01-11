@@ -102,7 +102,7 @@ function mayorQueCincuenta(num) {
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  var resto  = x % y;
+  var resto = x % y;
   return resto;
 }
 
@@ -110,6 +110,10 @@ function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
+  if (num % num == int) {
+    return true;
+  }
+  return false;
 }
 
 function esImpar(num) {
@@ -122,6 +126,7 @@ function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
+  return Math.pow(num, 2)
 }
 
 function elevarAlCubo(num) {
