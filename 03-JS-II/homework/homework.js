@@ -5,12 +5,13 @@ function obtenerMayor(x, y) {
   // Devuelve el número más grande
   // Si son iguales, devuelve cualquiera de los dos
   // Tu código:
-  if (x > y){
+  if (x > y) {
     return x;
   } else if (y > x) {
     return y;
   } else {
-    return x || y; }
+    return x || y;
+  }
 }
 
 function saludo(idioma) {
@@ -23,9 +24,13 @@ function saludo(idioma) {
 }
 
 function esDiezOCinco(numero) {
-    // Devuelve "true" si "numero" es 10 o 5
-    // De lo contrario, devuelve "false"
-    // Tu código:
+  // Devuelve "true" si "numero" es 10 o 5
+  // De lo contrario, devuelve "false"
+  // Tu código:
+  if (numero === 5 || numero === 10) {
+    return true;
+  }
+  return false;
 }
 
 function estaEnRango(numero) {
@@ -59,8 +64,6 @@ function esPrimo(numero) {
   // Nota: Los números 0 y 1 NO son considerados números primos
 }
 
-
-
 // No modificar nada debajo de esta línea
 // --------------------------------
 
@@ -71,5 +74,5 @@ module.exports = {
   estaEnRango,
   esEntero,
   fizzBuzz,
-  esPrimo
+  esPrimo,
 };
